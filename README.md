@@ -8,9 +8,9 @@ https://forever2020.dnyyy.vercel.app/
 
 ## Pictures About It
 
-![Sample for Web]('./sample_web.png')
+![Sample for Web]('https://i.imgur.com/hbSRS5I.png')
 
-![Sample for IOS]('./sample_ios.png')
+![Sample for IOS]('https://i.imgur.com/ewWYy32.png')
 
 ### To Do List For Better Look And Plus Features:
 
