@@ -1,0 +1,24 @@
+.Clock .date-time {
+  opacity: 0;
+  text-align: center;
+  font-size: 72px;
+}
+.Clock .fadedIn {
+  animation: fadeIn 1s ease-in;
+  opacity: 1;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .Clock .date-time {
+    font-size: 42px;
+  }
+}
+
+/*# sourceMappingURL=Clock.css.map */
