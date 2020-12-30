@@ -7,7 +7,6 @@ const App = () => {
 
 	return(
 		<div className='App'>
-			{/* <h1>Hello React!</h1> */}
 			<Clock forEverYear={2020} />
 			<Footer />
 		</div>

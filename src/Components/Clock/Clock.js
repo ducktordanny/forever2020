@@ -17,7 +17,7 @@ const Clock = ({ forEverYear }) => {
             }
             setValue(`${date} ${time}`);
          },
-			1000
+			250
 		);
 
 		return () => {

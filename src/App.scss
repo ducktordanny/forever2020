@@ -4,4 +4,16 @@
    align-items: center;
    
    background: linear-gradient(to bottom, rgb(132, 0, 0), rgb(255, 255, 255), rgb(61, 121, 0));
+
+   
+   animation: fade-in-bg .4s ease-in;
+
+   @keyframes fade-in-bg {
+      from {
+         opacity: 0;
+      }
+      to {
+         opacity: 1;
+      }
+   }
 }
