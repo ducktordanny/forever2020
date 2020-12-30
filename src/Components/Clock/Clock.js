@@ -16,7 +16,6 @@ const Clock = ({ forEverYear }) => {
                date = `${forEverYear}. ${today.getMonth() + (12 * (today.getFullYear() - forEverYear))}. ${today.getDate()}.`;
             }
             setValue(`${date} ${time}`);
-
          },
 			1000
 		);
