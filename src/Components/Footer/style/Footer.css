@@ -1,5 +1,5 @@
 .Footer {
-  position: fixed;
+  position: absolute;
   bottom: 50px;
   animation: fadeUp 1s ease-in;
 }
