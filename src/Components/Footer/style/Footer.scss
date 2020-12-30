@@ -1,0 +1,36 @@
+.Footer {
+   position: fixed;
+   bottom: 50px;
+
+   a {
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+   }
+
+   span {
+      color: rgb(200, 0, 0);
+      font-size: 28px;
+   }
+
+   @media only screen and (max-width: 580px) {
+      a {
+         font-size: 16px;
+         font-weight: bold;
+      }
+      span {
+         font-size: 22px;
+      }
+   }
+
+   animation: fadeUp 2s ease-in;
+
+   @keyframes fadeUp {
+      from {
+         bottom: -50px;
+      }
+      to {
+         bottom: 50px;
+      }
+   }
+}

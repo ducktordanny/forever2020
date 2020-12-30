@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Clock.css';
+import './style/Clock.css';
 
 const Clock = ({ forEverYear }) => {
 
@@ -23,7 +23,7 @@ const Clock = ({ forEverYear }) => {
 		return () => {
 			clearInterval(interval);
 		}
-	}, []);
+	}, [forEverYear]);
 
    useEffect(() => {
       const dateTimeClassList = document.querySelector('.date-time').classList;

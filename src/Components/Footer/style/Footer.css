@@ -1,0 +1,33 @@
+.Footer {
+  position: fixed;
+  bottom: 50px;
+  animation: fadeUp 2s ease-in;
+}
+.Footer a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.Footer span {
+  color: #c80000;
+  font-size: 28px;
+}
+@media only screen and (max-width: 580px) {
+  .Footer a {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .Footer span {
+    font-size: 22px;
+  }
+}
+@keyframes fadeUp {
+  from {
+    bottom: -50px;
+  }
+  to {
+    bottom: 50px;
+  }
+}
+
+/*# sourceMappingURL=Footer.css.map */

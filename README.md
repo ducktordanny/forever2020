@@ -14,5 +14,6 @@ https://forever2020.dnyyy.vercel.app/
 
 ### To Do List For Better Look And Plus Features:
 
+* [x] Add footer with link.
 * [ ] Make "bubble" animation with "⏳" for waiting 2021 but when it (not) happens switch to "🎉".
 * [ ] Make some other ideas... 😳
