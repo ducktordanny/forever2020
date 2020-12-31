@@ -6,8 +6,7 @@ const Clock = ({ forEverYear }) => {
 	const [value, setValue] = useState();
  
 	useEffect(() => {
-		const interval = setInterval(
-			() => {
+		const interval = setInterval(() => {
             const today = new Date();
             let date = today.toLocaleDateString('hu-HU');
             const time = today.toLocaleTimeString('hu-HU');
@@ -19,7 +18,6 @@ const Clock = ({ forEverYear }) => {
          },
 			250
 		);
-
 		return () => {
 			clearInterval(interval);
 		}
