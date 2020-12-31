@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
+
 import './style/Clock.css';
 
 const Clock = ({ forEverYear }) => {
 
-	const [value, setValue] = useState();
+   const [value, setValue] = useState();
  
 	useEffect(() => {
 		const interval = setInterval(() => {
             const today = new Date();
             let date = today.toLocaleDateString('hu-HU');
             const time = today.toLocaleTimeString('hu-HU');
-            // console.log(today.getFullYear());
+            
             if (today.getFullYear() > forEverYear) {
                date = `${forEverYear}. ${today.getMonth() + (12 * (today.getFullYear() - forEverYear))}. ${today.getDate()}.`;
             }
