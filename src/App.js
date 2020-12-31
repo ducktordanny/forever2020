@@ -8,6 +8,7 @@ import './App.css';
 const App = () => {
 	const [version, setVersion] = useState(1);
 	const forEverYear = 2020;
+	const [emoji, setEmoji] = useState(new Date().getFullYear() > forEverYear ? '🎉' : '⏳');
 
 	useEffect(() => {
 	
@@ -16,6 +17,7 @@ const App = () => {
 			if (difference) {
 				document.querySelector('.NewLevel .card').classList.add('visible-card');
 				setVersion(difference + 1);
+				setEmoji('🎉');
 			}
 		}, 1000);
 
@@ -26,7 +28,7 @@ const App = () => {
 
 	return(
 		<div className='App'>
-			<FloatingEmojis emoji={new Date().getFullYear() !== forEverYear ? '🎉' : '⏳'} />
+			<FloatingEmojis emoji={emoji} />
          <NewLevel version={version} />
 			<Clock forEverYear={forEverYear} />
 			<Footer />
