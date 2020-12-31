@@ -16,6 +16,12 @@
   padding: 2rem 4rem;
   opacity: 0;
 }
+.NewLevel .card h1 {
+  font-size: 28px;
+}
+.NewLevel .card h2 {
+  font-size: 24px;
+}
 .NewLevel .card h1, .NewLevel .card h2 {
   margin: 1rem;
   text-align: center;
@@ -31,6 +37,18 @@
   }
   to {
     opacity: 1;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .NewLevel .card {
+    width: 60%;
+    padding: 1rem 2rem;
+  }
+  .NewLevel .card h1 {
+    font-size: 21px;
+  }
+  .NewLevel .card h2 {
+    font-size: 18px;
   }
 }
 
