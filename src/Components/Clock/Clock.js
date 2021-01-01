@@ -13,7 +13,7 @@ const Clock = ({ forEverYear }) => {
             const time = today.toLocaleTimeString('hu-HU');
             
             if (today.getFullYear() > forEverYear) {
-               date = `${forEverYear}. ${today.getMonth() + (12 * (today.getFullYear() - forEverYear))}. ${today.getDate()}.`;
+               date = `${forEverYear}. ${today.getMonth() + (13 * (today.getFullYear() - forEverYear))}. ${today.getDate()}.`;
             }
             setValue(`${date} ${time}`);
          },
