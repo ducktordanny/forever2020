@@ -19,4 +19,4 @@ https://forever2020.dnyyy.vercel.app/
 * [x] Make some other ideas... 😳
 * [x] Made a "New Level" card what shows up when its new Year!
 * [ ] Update Floating Emoji's if it is already not New Year...
-* [ ] Make Flaoting Emojis reusable Component for npm
+* [x] Make Flaoting Emojis reusable Component for npm
